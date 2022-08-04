@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index3.css'>
+    <script>
+        function fnClick(){ 
+            let div = document.getElementById("sq");
+             // console.log(div.style.borderRadius);
+             if (div.style.borderRadius === '') {
+                div.style.borderRadius = "50%";
+             } else {
+                div.style.borderRadius = "";
+             }
+
+        }
+    </script>
+</head>
+<body>
+    <div id="sq"></div><br>
+    <div id="btn"><button onclick="fnClick()">Change to Circle</button></div>
+</body>
+</html>

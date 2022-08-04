@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function fnClick(){ 
+            let a=document.getElementById("a").value;
+            let b=document.getElementById("b").value;
+            let c=document.getElementById("c").value;
+            if(a>b){
+                alert("Error");
+            }
+            let count=0;
+            for(let i=a;i<b;i++){
+                if(i%c==0){
+                    count++;
+                }
+            }
+            document.getElementById("p1").innerHTML ="Count of numbers divisible by third number is: "+(count);
+
+            //let sum=0;
+           // for(let i=1;i<=n1;i++){
+             //   if(i%2===0){
+                   // sum=sum+i;
+               // }
+           // }
+            //document.getElementById("p1").innerHTML ="Sum of even numbers: "+(sum);
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" name="a" id="a" /><br>
+    <input type="text" name="b" id="b" /><br>
+    <input type="text" name="c" id="c" /><br>
+    <button onclick="fnClick()">Click</button>
+    <p id="p1"></p>
+</body>
+</html>
