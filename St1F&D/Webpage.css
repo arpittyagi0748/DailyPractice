@@ -1,0 +1,81 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Head{
+    background-color: #000;
+    
+    opacity: .5;
+    
+    height: 150px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top:50px;
+    color:white;
+}
+#Main{
+    height: 170px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 60px;
+    padding-left: 40px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Centre{
+    height: 230px;
+    width: 100%;
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Box{
+    height: 60%;
+    width: 150px;
+    margin: 0 10px;
+    padding-left: 30px;
+}
+.Arrival_span{
+    padding-left: 17px;
+}
+#Box1{
+    /* padding-top: 20px;
+    height: 60%;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: violet;
+    text-align: center; */
+    background-color: grey;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#Box2{
+    padding-bottom: 60px;
+    background-color:beige;
+    border:15px solid lightgreen;
+
+}
+#Box3{
+    background-color: grey;
+    padding-top: 30px;
+    padding-left: 40px;
+
+}
+.Last{
+    height: 170px;
+    width: 100%;
+    border: 6px solid blue;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 201, 201, 0.675);
+    padding-left: 45%;
+    padding-top: 50px;
+    font-size: 30px;
+
+
+}
