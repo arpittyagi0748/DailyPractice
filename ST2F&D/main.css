@@ -1,0 +1,39 @@
+#Head{
+   text-align:center;
+   margin: 20px auto;
+   font-size: 30px;
+   /* margin-right: 20px; */
+}
+#input{
+    text-align:center;
+    margin-top: 100px;
+    margin-right: 40px;
+ }
+ #click{
+    text-align:center;
+    margin-top: 5px;
+    margin-right: 5px;
+ }
+#a{
+    font-size: 2rem;
+}
+#btn{
+    background-color: orange;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 40px;
+    font-size: 2rem;
+}
+
+#square{
+    text-align:center;
+    margin-top: 100px;
+    margin-right: 40px;
+    transition: border-radius 2s 4s;
+    
+ }
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
